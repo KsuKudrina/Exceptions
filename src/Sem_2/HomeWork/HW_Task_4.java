@@ -18,7 +18,7 @@ public class HW_Task_4 {
                 throw new RuntimeException("Строка не должна быть пуста! ");
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }

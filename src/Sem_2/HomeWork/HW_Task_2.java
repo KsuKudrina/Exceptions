@@ -11,13 +11,10 @@ public class HW_Task_2 {
             int d = 0;
             double catchedRes1;
             if (d == 0){
-                System.out.println(intArray[8]);
-//                System.out.println("Divide by zero not permited");
+                System.out.println("Divide by zero not permited");
             }
             catchedRes1 = intArray[8] / d;
             System.out.println("catchedRes1 = " + catchedRes1);
-        } catch (ArithmeticException e) {
-            System.out.println("Catching exception: " + e);
         }catch (Exception e) {
             e.printStackTrace();
         }

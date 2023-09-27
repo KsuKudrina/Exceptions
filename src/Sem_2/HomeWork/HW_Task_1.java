@@ -24,7 +24,7 @@ public class HW_Task_1 {
             inputStream = new FileInputStream("sdafgdsaf");
         }catch (StackOverflowError error){
             System.out.println("asdfasdfdsa");
-        }catch (Throwable e){
+        }catch (Exception e){
             e.printStackTrace();
         }finally {
             System.out.println("Я все равно выполнился! ");
